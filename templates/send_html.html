@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>this is rendered by flask</h1>
+        <h1>
+            {{name}}
+        </h1>
+
+
+        <img src="{{url_for('static',filename='images/mouni pic.jfif')}}" alt="" height="300">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+        <br>
+        <a href="{{url_for('properties')}}">click here</a>
+        
+    </center>
+</body>
+</html>
